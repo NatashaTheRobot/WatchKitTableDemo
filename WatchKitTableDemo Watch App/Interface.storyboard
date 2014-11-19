@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitTableDemo_Watch_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" layout="vertical" id="eac-bO-6A0">
+                            <items>
+                                <tableRow identifier="MinionTableRowController" id="nHu-mO-YbL" customClass="MinionTableRowController" customModule="WatchKitTableDemo_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="center" id="zB5-Ie-NC4">
+                                        <items>
+                                            <imageView width="0.29999999999999999" height="50" alignment="left" contentMode="scaleAspectFill" id="UKd-VI-H7k"/>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="NF5-Kd-az3"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="interfaceImage" destination="UKd-VI-H7k" id="AAu-cc-IDc"/>
+                                        <outlet property="interfaceLabel" destination="NF5-Kd-az3" id="XRS-vK-Xtk"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="minionTable" destination="eac-bO-6A0" id="WYC-QW-QJX"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="243" y="170"/>
+        </scene>
+    </scenes>
+</document>
