@@ -16,3 +16,4 @@ class MinionTableRowController: NSObject {
     
 
 }
+

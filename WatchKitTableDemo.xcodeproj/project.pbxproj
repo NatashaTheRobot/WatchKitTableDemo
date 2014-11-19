@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2EE1EA1A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EE1E91A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift */; };
 		FAAAD00B1A1C28F100BD2ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD00A1A1C28F100BD2ABA /* AppDelegate.swift */; };
 		FAAAD00D1A1C28F100BD2ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD00C1A1C28F100BD2ABA /* ViewController.swift */; };
 		FAAAD0101A1C28F100BD2ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAAD00E1A1C28F100BD2ABA /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA2EE1E91A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionDetailInterfaceController.swift; sourceTree = "<group>"; };
 		FAAAD0051A1C28F100BD2ABA /* WatchKitTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAD0091A1C28F100BD2ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAAD00A1A1C28F100BD2ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +77,7 @@
 		FAAAD02E1A1C28FF00BD2ABA /* WatchKitTableDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchKitTableDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAD0301A1C28FF00BD2ABA /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		FAAAD0341A1C28FF00BD2ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAAAD0351A1C28FF00BD2ABA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FAAAD0351A1C28FF00BD2ABA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = InterfaceController.swift; sourceTree = "<group>"; };
 		FAAAD0371A1C28FF00BD2ABA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FAAAD03B1A1C28FF00BD2ABA /* WatchKitTableDemo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKitTableDemo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAD0411A1C28FF00BD2ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				FAAAD0351A1C28FF00BD2ABA /* InterfaceController.swift */,
+				FA2EE1E91A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift */,
 				FAAAD0501A1C2F5E00BD2ABA /* MinionTableRowController.swift */,
 				FAAAD0371A1C28FF00BD2ABA /* Images.xcassets */,
 				FAAAD0331A1C28FF00BD2ABA /* Supporting Files */,
@@ -396,6 +399,7 @@
 			files = (
 				FAAAD0361A1C28FF00BD2ABA /* InterfaceController.swift in Sources */,
 				FAAAD0511A1C2F5E00BD2ABA /* MinionTableRowController.swift in Sources */,
+				FA2EE1EA1A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,6 +651,7 @@
 				FAAAD0261A1C28F100BD2ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAAD0271A1C28F100BD2ABA /* Build configuration list for PBXNativeTarget "WatchKitTableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +660,7 @@
 				FAAAD0291A1C28F100BD2ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAAD0491A1C28FF00BD2ABA /* Build configuration list for PBXNativeTarget "WatchKitTableDemo Watch App" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +669,7 @@
 				FAAAD04B1A1C28FF00BD2ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAAAD04C1A1C28FF00BD2ABA /* Build configuration list for PBXNativeTarget "WatchKitTableDemo WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +678,7 @@
 				FAAAD04E1A1C28FF00BD2ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

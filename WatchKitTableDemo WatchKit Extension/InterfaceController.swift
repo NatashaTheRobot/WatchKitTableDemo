@@ -7,8 +7,6 @@
 //
 
 import WatchKit
-import Foundation
-
 
 class InterfaceController: WKInterfaceController {
 
@@ -17,15 +15,17 @@ class InterfaceController: WKInterfaceController {
     let minions = ["Bob", "Dave", "Jerry", "Jorge", "Kevin",
         "Mark", "Phil", "Stuart", "Tim"]
     
+
     override init(context: AnyObject?) {
         super.init(context: context)
+        
         
         loadTableData()
     }
     
     private func loadTableData() {
         
-       minionTable.setNumberOfRows(minions.count, withRowType: "MinionTableRowController")
+        minionTable.setNumberOfRows(minions.count, withRowType: "MinionTableRowController")
         
         for (index, minionName) in enumerate(minions) {
             
@@ -37,6 +37,14 @@ class InterfaceController: WKInterfaceController {
         }
         
     }
+    
+    override func contextForSegueWithIdentifier(segueIdentifier: String, inTable table: WKInterfaceTable, rowIndex: Int) -> AnyObject?
+    {
+        
+        let minionName = minions[rowIndex]
+        return minionName
+    }
+    
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
