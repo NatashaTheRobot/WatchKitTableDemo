@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA249A2A1A1DEF320026EE6F /* MinionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA249A291A1DEF320026EE6F /* MinionsDataSource.swift */; };
+		FA249A2B1A1DEFE50026EE6F /* MinionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA249A291A1DEF320026EE6F /* MinionsDataSource.swift */; };
 		FA2EE1EA1A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EE1E91A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift */; };
 		FAAAD00B1A1C28F100BD2ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD00A1A1C28F100BD2ABA /* AppDelegate.swift */; };
 		FAAAD00D1A1C28F100BD2ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAD00C1A1C28F100BD2ABA /* ViewController.swift */; };
@@ -63,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA249A291A1DEF320026EE6F /* MinionsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsDataSource.swift; sourceTree = "<group>"; };
 		FA2EE1E91A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionDetailInterfaceController.swift; sourceTree = "<group>"; };
 		FAAAD0051A1C28F100BD2ABA /* WatchKitTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAAD0091A1C28F100BD2ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +143,7 @@
 			children = (
 				FAAAD00A1A1C28F100BD2ABA /* AppDelegate.swift */,
 				FAAAD00C1A1C28F100BD2ABA /* ViewController.swift */,
+				FA249A291A1DEF320026EE6F /* MinionsDataSource.swift */,
 				FAAAD00E1A1C28F100BD2ABA /* Main.storyboard */,
 				FAAAD0111A1C28F100BD2ABA /* Images.xcassets */,
 				FAAAD0131A1C28F100BD2ABA /* LaunchScreen.xib */,
@@ -382,6 +386,7 @@
 			files = (
 				FAAAD00D1A1C28F100BD2ABA /* ViewController.swift in Sources */,
 				FAAAD00B1A1C28F100BD2ABA /* AppDelegate.swift in Sources */,
+				FA249A2A1A1DEF320026EE6F /* MinionsDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA249A2B1A1DEFE50026EE6F /* MinionsDataSource.swift in Sources */,
 				FAAAD0361A1C28FF00BD2ABA /* InterfaceController.swift in Sources */,
 				FAAAD0511A1C2F5E00BD2ABA /* MinionTableRowController.swift in Sources */,
 				FA2EE1EA1A1CD0AA00E57EF5 /* MinionDetailInterfaceController.swift in Sources */,

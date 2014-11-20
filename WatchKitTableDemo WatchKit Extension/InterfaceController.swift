@@ -1,10 +1,6 @@
 //
 //  InterfaceController.swift
 //  WatchKitTableDemo WatchKit Extension
-//
-//  Created by Natasha Murashev on 11/18/14.
-//  Copyright (c) 2014 NatashaTheRobot. All rights reserved.
-//
 
 import WatchKit
 
@@ -12,13 +8,10 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet weak var minionTable: WKInterfaceTable!
     
-    let minions = ["Bob", "Dave", "Jerry", "Jorge", "Kevin",
-        "Mark", "Phil", "Stuart", "Tim"]
+    let minions = MinionsDataSource().minions
     
-
     override init(context: AnyObject?) {
         super.init(context: context)
-        
         
         loadTableData()
     }
