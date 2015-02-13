@@ -10,8 +10,8 @@ class InterfaceController: WKInterfaceController {
     
     let minions = MinionsDataSource().minions
     
-    override init(context: AnyObject?) {
-        super.init(context: context)
+	override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
         
         loadTableData()
     }
@@ -22,7 +22,7 @@ class InterfaceController: WKInterfaceController {
         
         for (index, minionName) in enumerate(minions) {
             
-            let row = minionTable.rowControllerAtIndex(index) as MinionTableRowController
+            let row = minionTable.rowControllerAtIndex(index) as! MinionTableRowController
             
             row.interfaceLabel.setText(minionName)
             

@@ -14,8 +14,8 @@ class MinionDetailInterfaceController: WKInterfaceController {
     
     @IBOutlet weak var interfaceImage: WKInterfaceImage!
     
-    override init(context: AnyObject?) {
-        super.init(context: context)
+	override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
         
         if let minionName = context as? String {
             interfaceLabel.setText(minionName)
