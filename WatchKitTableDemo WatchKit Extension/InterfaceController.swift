@@ -20,7 +20,7 @@ class InterfaceController: WKInterfaceController {
         
         minionTable.setNumberOfRows(minions.count, withRowType: "MinionTableRowController")
         
-        for (index, minionName) in enumerate(minions) {
+        for (index, minionName) in minions.enumerate() {
             
             let row = minionTable.rowControllerAtIndex(index) as! MinionTableRowController
             
